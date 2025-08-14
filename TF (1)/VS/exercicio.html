@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Portfólio Pessoal</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet" />
+  <style>
+    body {
+      padding-bottom: 100px;
+    }
+    footer {
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      z-index: 1000;
+    }
+    .card-img-top {
+      height: 500px;
+      object-fit: cover;
+      object-position: center;
+    }
+    .card:hover {
+      transform: scale(1.02);
+      transition: transform 0.3s ease;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    }
+    footer a:hover {
+      color: #0d6efd;
+      transition: color 0.3s;
+    }
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-success">
+  <div class="container">
+    <a class="navbar-brand" href="#home">Meu Portfólio</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Alternar navegação">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#projetos">Projetos</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="container mt-4">
+  <section id="home">
+    <h1 class="text-center mb-4">Bem-vindo ao meu Portfólio</h1>
+    <div class="row">
+      <div class="col-md-4 mb-3">
+        <div class="card h-100">
+          <img src="WhatsApp Image 2025-05-29 at 16.28.02.jpeg" class="card-img-top" alt="Programação" />
+          <div class="card-body">
+            <h5 class="card-title">Um pouco sobre mim</h5>
+            <p class="card-text">Oi! Meu nome é Arthur, tenho 19 anos e estou cursando Análise e Desenvolvimento de Sistemas no IFSul.
+Sou uma pessoa tranquila, objetiva e gosto de levar a vida de forma equilibrada, sempre focado nos meus objetivos. Curto trabalhar em equipe, sou dedicado no que faço e estou sempre buscando aprender mais. Gosto de tecnologia, resolver problemas e criar soluções que realmente façam a diferença no dia a dia.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-3">
+        <div class="card h-100">
+          <img src="algoritmo.jpg" class="card-img-top" alt="Design" />
+          <div class="card-body">
+            <h5 class="card-title">Vida acadêmica</h5>
+            <p class="card-text">Atualmente, curso Análise e Desenvolvimento de Sistemas no IFSul – campus Sapucaia do Sul. Concluí o Ensino Médio na Escola SESI Arthur Aluízio Daut, também em Sapucaia do Sul, integrado a um curso técnico em Eletricista Industrial com Ênfase em Automação, realizado no SENAI.
+
+Entre minhas conquistas acadêmicas, destaco a apresentação do meu projeto de rotas em diversas feiras pelo Rio Grande do Sul, em parceria com dois colegas e com o apoio do nosso coordenador. Além disso, formei uma equipe destaque em um evento promovido pelo SENAI em colaboração com a empresa Gerdau, onde desenvolvemos uma solução criativa para um problema real da indústria, recebendo reconhecimento pelo nosso desempenho.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-3">
+        <div class="card h-100">
+          <img src="volei.jpg" class="card-img-top" alt="Fotografia" />
+          <div class="card-body">
+            <h5 class="card-title">Hobbies</h5>
+            <p class="card-text">Alguns dos meus hobbies incluem a prática de esportes, como vôlei, futebol e musculação. Também gosto de acompanhar séries e livros, especialmente os que envolvem drama e mistério policial. Além disso, de vez em quando, dedico um tempo ao xadrez, que me ajuda a exercitar o raciocínio.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projetos" class="mt-5">
+    <h2 class="text-center mb-4">Meus Projetos</h2>
+    <div class="table-responsive">
+      <table class="table table-striped table-bordered table-hover">
+        <thead class="table-success">
+          <tr>
+            <th>Projeto</th>
+            <th>Descrição</th>
+            <th>Status</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Site Portfólio</td>
+            <td>Site pessoal desenvolvido com Bootstrap e HTML.</td>
+            <td>Concluído</td>
+          </tr>
+          <tr>
+            <td>Criação de um Banco de Dados</td>
+            <td>Criação de um Banco de Dados que simula uma livraria.</td>
+            <td>Concluído</td>
+          </tr>
+          <tr>
+            <td>Site The Last Of Us</td>
+            <td>Site de um fã, desenvolvido com HTML e CSS.</td>
+            <td>Concluído</td>
+          </tr>
+          <tr>
+            <td>Sistema de Loja de Pesca</td>
+            <td>Sistema usando Java integrado ao MySQL para simular uma loja de pesca.</td>
+            <td>Em andamento</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section id="contato" class="mt-5 mb-5">
+    <h2 class="text-center mb-4">Fale comigo</h2>
+    <form>
+      <div class="mb-3">
+        <label for="nome" class="form-label">Nome</label>
+        <input type="text" class="form-control" id="nome" placeholder="Seu nome" required />
+      </div>
+      <div class="mb-3">
+        <label for="email" class="form-label">E-mail</label>
+        <input type="email" class="form-control" id="email" placeholder="seu@email.com" required />
+      </div>
+      <div class="mb-3">
+        <label for="assunto" class="form-label">Assunto</label>
+        <input type="text" class="form-control" id="assunto" placeholder="Motivo do contato" required />
+      </div>
+      <div class="mb-3">
+        <label for="mensagem" class="form-label">Mensagem</label>
+        <textarea class="form-control" id="mensagem" rows="4" placeholder="Escreva sua mensagem aqui..." required></textarea>
+      </div>
+      <button type="submit" class="btn btn-success">Enviar <i class="bi bi-send"></i></button>
+    </form>
+  </section>
+</div>
+
+<footer class="bg-success text-light text-center p-3">
+  <div class="container d-flex justify-content-center gap-3">
+    <a href="https://www.instagram.com/arthur.hoffelder/" target="_blank" class="text-light fs-4">
+      <i class="bi bi-instagram"></i>
+    </a>
+    <a href="https://www.linkedin.com/in/arthur-hoffelder-4b22322a0" target="_blank" class="text-light fs-4">
+      <i class="bi bi-linkedin"></i>
+    </a>
+  </div>
+  <div class="mt-2">© 2025 Meu Portfólio Pessoal</div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
